@@ -7,7 +7,7 @@
 <body style="background-color:#eca1b8;">
 <form>
   <div class="form__group field">
-      <label for="pswd">How many months have we known each other now? </label>
+      <label for="pswd">how many kids are we going to have together? :) </label>
       <br/>
       <input type="input" class="form__field" placeholder="Answer" name="name" id="pswd">
       <br/>
@@ -17,13 +17,13 @@
 <!--Function to check password the already set password is admin-->
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "11";
+        var confirmPassword = "2";
         var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="question2.html";
+        if (password.toLowerCase() == confirmPassword) {
+             window.location="question6.html";
         }
         else{
-            alert("Nope");
+          alert("Nope");
         }
     }
 </script>
